@@ -9,6 +9,6 @@ class Anagram
   
   def match(list)
     list.split(" ").select do |w|
-       w.sort == word.sort
+      w.split.sort == word.sort
     
 end
