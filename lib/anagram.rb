@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match(list)
-    @list.split(" ").each do |w|
+    list.split(" ").each do |w|
       if w.sort == word.sort
       puts "match"
     else puts "no match"
