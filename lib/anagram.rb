@@ -8,6 +8,6 @@ class Anagram
   
   def match
     word.split.each do |w|
-      
+    end
   end
 end
