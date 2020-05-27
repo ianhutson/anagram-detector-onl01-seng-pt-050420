@@ -2,12 +2,13 @@
 class Anagram
   attr_accessor :word
   
-  def initialize(word)
+  def initialize(word, list)
     @word = word
   end
   
   def match
-    word.split.sort do |w|
+    if word.split.sort == 
+    
     end
   end
 end
