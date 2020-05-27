@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match
-    if word.split.sort == 
+    @list.split(" ")
     
     end
   end
