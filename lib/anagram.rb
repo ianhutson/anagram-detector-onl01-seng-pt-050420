@@ -12,5 +12,6 @@ class Anagram
       if w.sort == word.sort
       puts "match"
     end
+    end
   end
 end
